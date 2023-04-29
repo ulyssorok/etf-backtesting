@@ -26,12 +26,12 @@ The script performs the following steps:
 
 ## Usage
 
-To use the script, make sure that the CSV files for the ETFs are in the correct format and available in the same directory as the script. Also, ensure that you have the necessary Python packages installed (`pandas`, `numpy`, and `matplotlib`).
+To use the script, make sure that the CSV files for the ETFs are in the correct format and available in the `data` folder. Also, ensure that you have the necessary Python packages installed (`pandas`, `numpy`, and `matplotlib`).
 
 Run the script, and it will generate the following outputs:
 
-1. A plot of the portfolio value over time (saved as `portfolio_value.png`).
-2. A CSV file with the rebalancing dates and corresponding allocations (saved as `allocations.csv`).
+1. A plot of the portfolio value over time (saved in the `output` folder as `portfolio_value.png`).
+2. A CSV file with the rebalancing dates and corresponding allocations (saved in the `output` folder as `allocations.csv`).
 
 The script will also print the Sharpe Ratio and CAGR values to the console.
 
@@ -40,3 +40,8 @@ The script will also print the Sharpe Ratio and CAGR values to the console.
 - pandas
 - numpy
 - matplotlib
+
+## Installation
+
+1. Clone the repository
+2. Install the required packages
